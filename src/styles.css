@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+/*global styles*/
+
+@import url("./assets/styles/bootstrap-4.1.2/bootstrap.min.css");
+@import url("./assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css");
+
+
+html,
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #000;
+}
+
+a:hover{
+    color: #999;
+}
+
+/*Fonts*/
+
+@font-face {
+    font-family: "Brandon";
+    src: url(../src/assets/fonts/Brandon/BrandonGrotesqueOffice-Regular.ttf);
+  }

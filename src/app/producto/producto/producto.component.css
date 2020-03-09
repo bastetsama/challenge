@@ -1,0 +1,196 @@
+.product_content.info {
+    margin: 0px 30px;
+}
+
+.product_content.info > div {
+    width: 100%;
+}
+
+
+.product-detail{
+    display:flex;
+    justify-content: flex-start;
+    width: 100%
+}
+
+.product_name, .product_category {
+    font-size: 30px;
+    font-weight: bold
+}
+
+.product_price {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 12px 0 5px;
+    color:#e97664
+}
+
+.square {
+    background: lightgray;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 20px 20px 15px
+}
+
+.title_menu {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #fff;
+    color: #000;
+    padding: 6px;
+    font-size: 14px;
+    width: 300px;
+    text-align: left;
+    border: 1px solid gray;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 5px 0;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: unset;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #ccc;}
+
+
+  
+    /* SPINNER */ 
+
+    .quantity {
+        margin: 10px 0;
+    }
+
+    input#qty_box-0 {
+        width: 35px;
+        padding: 0px 4px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .quantity span {
+        float: left;
+        font-size: 1em;
+        margin-right: 10px;
+        margin-top: 8px;
+    }
+
+    .quantity .spinner-cart .sp-buttons {
+        display: flex;
+    }
+
+    .quantity .spinner-cart .sp-buttons > .btn {
+        border-radius: 0;
+        display: block;
+        height: 32px;
+        border: 1px solid #ccc;
+        width: 33px;
+        padding: 0;
+        line-height: 32px;
+        background: white;
+    }
+    .quantity .spinner-cart {
+      display: block;
+      width: 54px;
+      min-width: unset;
+      font-weight: 300;
+      padding: 0;
+      position: relative;
+      width: 100%;
+    }
+    .quantity .spinner-cart .sp-buttons > .btn.sp-up:before,
+    .quantity .spinner-cart .sp-buttons > .btn.sp-down:before  {
+    font-size: 16px;
+    top: -2px;
+    position: relative;
+    }
+
+    .quantity .spinner-cart .sp-buttons > .btn.sp-up::before {content: "+"}
+    .quantity .spinner-cart .sp-buttons > .btn.sp-down::before {content: "-"}
+  
+    .units {
+        padding: 3px 10px;
+    }
+
+    @media(max-width:767px){
+        .quantity .spinner-cart .sp-buttons > .btn.sp-up:before,
+        .quantity .spinner-cart .sp-buttons > .btn.sp-down:before {
+            top: 1px;
+        }
+    }
+
+    /*BUTTON BUY*/
+
+    .button-buy {
+        background: #e97664;
+        color: white;
+        padding: 11px 10px;
+        text-transform: uppercase;
+        border-radius: 30px;
+        text-align: center;
+        width: 240px !important;
+        font-weight: bold;
+        margin: 65px 0 32px 0;
+        display: block;
+        opacity: 1;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .button-buy:hover {
+        background: #333333;
+        color: white;
+        zoom: 1;
+        text-decoration: none;
+        opacity: 0.5;
+    }
+
+    /*fin button*/
+
+    .information .inc{
+        font-weight: bold;
+    }
+    .information ul {
+        padding: 0;
+        color: darkblue;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .information ul li {
+        list-style: none;
+    }
+

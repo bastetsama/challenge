@@ -1,0 +1,21 @@
+/* Sticky Footer Classes */
+
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: 0;
+}
+
+.footer-title{
+  font-size: 30px;
+  font-family: "Brandon";
+}
+
+span.footer-title {
+  border-bottom: 3px solid black;
+  width: 100%;
+  display: block;
+}

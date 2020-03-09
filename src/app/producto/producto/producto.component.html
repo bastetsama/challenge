@@ -1,0 +1,64 @@
+<!-- Producto Detalle -->
+<div class="container">
+
+  <div class="product-detail">
+
+      <div class="product_image_prevs">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+
+    <div class="product_image">
+      <img src="../../assets/images/img.jpg" alt="">
+    </div>
+
+    <div class="product_content info">
+          <div class="product_name"><a href="#">{{ producto.nombre }}</a></div>
+          <div class="product_category"><a href="#">{{ producto.categoria }}</a></div>
+          <div class="product_price"><span>$</span>{{ producto.precio }}</div>
+          <div class="title_menu">Menú Desplegable</div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Seleccione</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+      <div class="quantity">
+        <div class="input-group spinner-cart">                  
+            <div class="sp-buttons">
+                <button class="btn sp-up" ng-click="countVal=countVal-1"></button>
+                <input class="qty_box" id="qty_box-0" type="text" name="quantity" value="1"> {{countVal}}
+                <button class="btn sp-down" ng-click="countVal=countVal-1"></button>
+
+                <div class="units">unidades</div>
+            </div>
+            
+        </div>
+      </div>
+
+      <a href="#" class="button-buy">
+        Comprar Desarrollo
+      </a>
+
+      <div class="information">
+        <div class="inc">Qué Incluye</div>
+        <ul>
+          <li><i class="fa fa-check"></i> Análisis de requerimientos</li>
+          <li><i class="fa fa-check"></i> Diseño de las interfases desktop y mobile</li>
+          <li><i class="fa fa-check"></i> Desarrollo de FrontEnd y BackEnd</li>
+        </ul>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+</div>
+

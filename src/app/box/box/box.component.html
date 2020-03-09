@@ -1,0 +1,32 @@
+<!-- Product -->
+<div class="container prods">
+
+  <div class="product-box" *ngFor="let prod of listprod">
+
+    <div class="product-box_image">
+      <img src="../../assets/images/prod.jpg" alt="">
+    </div>
+      
+      <div class="product-box_body">
+
+      <div class="product-box_name">
+        <a href="#">{{ prod.nombre }}</a>
+      </div>
+
+      <div class="product-box_price">
+        <i class="fa fa-credit-card"></i>  desde<span> $ {{ prod.precio }}</span>
+      </div>
+
+      <div class="product-box_info">
+        {{ prod.descripcion }}
+      </div>
+
+      <div class="product-box_button ml-auto">
+          <a href="#" class=" text-center">Contratar</a>
+      </div>
+    
+    </div>
+
+  </div>
+
+</div>

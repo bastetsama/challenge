@@ -1,0 +1,78 @@
+/* Boostrap custom */
+
+/* navbar */
+.navbar {
+    min-height: 30px;
+    padding: 0 20px;
+  }
+  
+  .navbar-brand {
+    padding: 0 12px;
+    line-height: 47px;
+    font-family: "Brandon";
+    font-size: 27px;
+  }
+  
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 13px;
+    padding: 9px 10px !important;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px;
+    }
+  }
+
+  @media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        align-items: center;
+    }
+
+  }
+
+.navbar-default {
+    background-color: #e97664 !important;
+    border-color: #e97664;
+}
+/* titulo */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #e97664;;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #e97664;;
+}
+
+ul.dropdown-menu.dropdown-menu-right {
+  margin-top: -1px;
+}
+
+ul.dropdown-menu.dropdown-menu-right li {
+  width: 220px;
+}

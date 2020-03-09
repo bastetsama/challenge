@@ -1,0 +1,13 @@
+.pagination {
+    justify-content: center;
+}
+
+.page-link {
+    color: #000;
+    border: none;
+}
+
+.active{
+    color: #e97664;
+    text-decoration: underline;
+}
